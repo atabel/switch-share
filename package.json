@@ -1,0 +1,22 @@
+{
+  "name": "switch-share-bot",
+  "version": "1.0.0",
+  "description": "Send screenshots and videos shared from Nintendo Switch. Read a twitter account and re-post tweets on Telegram",
+  "main": "index.js",
+  "author": "atabel87@gmail.com",
+  "license": "MIT",
+  "prettier": {},
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.36.0",
+    "twitter-autohook": "^1.4.2"
+  },
+  "devDependencies": {
+    "ngrok": "^3.2.7",
+    "nodemon": "^2.0.2"
+  }
+}
